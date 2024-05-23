@@ -3,7 +3,6 @@ import DextoolImg from '../assets/images/svg/dextools_logo.svg'
 import telegramImg from '../assets/images/svg/telegram_symbol.svg'
 import twitterImg from '../assets/images/svg/x_logo.svg'
 import DocImg from '../assets/images/svg/btn-svg.svg'
-// import HeroImg from '../assets/images/png/hero-img.png'
 
 function HeroSection() {
     return (
@@ -15,9 +14,9 @@ function HeroSection() {
                         <input type='checkbox' id='menuIcon' hidden />
                         <ul className='d-flex align-items-center gap_46 menuList ps-0'>
                             <ul className='d-flex flex_column gap-5 ps-0'>
-                                <a href="" target='_blank'><img src={DextoolImg} alt="DextoolImg" /></a>
-                                <a href="" target='_blank'><img src={twitterImg} alt="twitterImg" /></a>
-                                <a href="" target='_blank'><img src={telegramImg} alt="telegramImg" /></a>
+                                <a href="https://www.dextools.io/app/en/pairs" target='_blank'><img src={DextoolImg} alt="DextoolImg" /></a>
+                                <a href="https://x.com/?lang=en" target='_blank'><img src={twitterImg} alt="twitterImg" /></a>
+                                <a href="https://telegram.org/" target='_blank'><img src={telegramImg} alt="telegramImg" /></a>
                             </ul>
                             <button className='ff_inter fw-semibold text16_sm lh_19 color_white bg-transparent btn_border btn_borderRadius btn_padding text-nowrap'>Buy On Uniswap</button>
                         </ul>
