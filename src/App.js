@@ -4,13 +4,15 @@ import 'bootstrap/dist/js/bootstrap.js';
 import HeroSection from './components/HeroSection';
 import AppsSection from './components/AppsSection';
 import AboutSection from './components/AboutSection';
+import TokenSection from './components/TokenSection';
 
 function App() {
   return (
     <>
       <HeroSection />
       <AppsSection />
-      <AboutSection/>
+      <AboutSection />
+      <TokenSection />
     </>
   );
 }

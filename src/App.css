@@ -45,6 +45,7 @@
   --clr-white: #FFFFFF;
   --clr-black: #000000;
   --clr-orange: #FC9800;
+  --clr-borderGry: #FFFFFF80;
 }
 
 .color_black {
@@ -257,6 +258,98 @@
   max-width: 40px !important;
 }
 
+/* ==========token-section======== */
+/* .token_topImg {
+  background-image: url(./assets/images/png/tokenCloud-1.png);
+} */
+
+.bg_no_repeat {
+  background-repeat: no-repeat;
+}
+
+.bg_cover {
+  background-size: cover;
+}
+
+.py_30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.py_16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.px_22 {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.px_26 {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.px_68 {
+  padding-left: 68px;
+  padding-right: 68px;
+}
+
+.px_72 {
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.mb_12 {
+  margin-bottom: 12px;
+}
+
+.mb_18 {
+  margin-bottom: 18px;
+}
+
+.mb-20 {
+  margin-bottom: 20.5px;
+}
+
+.gap_18 {
+  gap: 18.53px;
+}
+
+.token_flex_wrap {
+  flex-wrap: wrap;
+}
+
+.max_w_278 {
+  max-width: 278px;
+}
+
+.max_w_300 {
+  max-width: 300px;
+}
+
+.max_w_223 {
+  max-width: 223px;
+}
+
+.max_w_324 {
+  max-width: 324px;
+}
+
+.token_box {
+  border: 1px solid var(--clr-borderGry);
+  padding: 27px 54px 39px 25px;
+  max-width: 404px;
+  border-radius: 20px;
+}
+
+.token_orangeBox {
+  width: fit-content;
+  background: var(--clr-orange);
+  border: 1px solid var(--clr-black);
+}
+
 @media (max-width:576px) {
   .flex_wrap {
     flex-wrap: wrap;
@@ -304,6 +397,10 @@
   .flex_column {
     flex-direction: column;
   }
+
+  .bg_black {
+    background: var(--clr-black);
+  }
 }
 
 @media (min-width:576px) {
@@ -347,8 +444,20 @@
     line-height: 77.45px;
   }
 
+  .pt_lg_220 {
+    padding-top: 220px;
+  }
+
+  .h_1114 {
+    height: 1114px;
+  }
+
   .w_50 {
     width: 50% !important;
+  }
+
+  .max_w_453 {
+    max-width: 453px;
   }
 
   .max_w_550 {
@@ -361,6 +470,10 @@
 
   .max_w_lg_60 {
     max-width: 60px !important;
+  }
+
+  .token_bg_img {
+    background-image: url(./assets/images/png/token-bg-img.png) !important;
   }
 }
 
