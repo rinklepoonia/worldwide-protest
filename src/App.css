@@ -34,7 +34,7 @@
   --fs-sm: 16px;
   --fs-md: 16px;
   --fs-2md: 24px;
-  --fs-3md: 32px;
+  --fs-3md: 25px;
   --fs-lg: 36px;
   --fs-xl: 40.44px;
   --fs-xxl: 25px;
@@ -271,50 +271,49 @@
   background-size: cover;
 }
 
+.bg_100 {
+  background-size: 100%;
+}
+
 .py_30 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.py_16 {
-  padding-top: 16px;
-  padding-bottom: 16px;
+.py_5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.px_22 {
-  padding-left: 22px;
-  padding-right: 22px;
+.px_10 {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.px_26 {
-  padding-left: 26px;
-  padding-right: 26px;
+.px_46 {
+  padding-left: 46px;
+  padding-right: 46px;
 }
 
-.px_68 {
-  padding-left: 68px;
-  padding-right: 68px;
-}
-
-.px_72 {
-  padding-left: 72px;
-  padding-right: 72px;
+.px_50 {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .mb_12 {
   margin-bottom: 12px;
 }
 
-.mb_18 {
-  margin-bottom: 18px;
+.mb_10 {
+  margin-bottom: 10px;
 }
 
 .mb-20 {
   margin-bottom: 20.5px;
 }
 
-.gap_18 {
-  gap: 18.53px;
+.gap_10 {
+  gap: 10px;
 }
 
 .token_flex_wrap {
@@ -339,7 +338,7 @@
 
 .token_box {
   border: 1px solid var(--clr-borderGry);
-  padding: 27px 54px 39px 25px;
+  padding: 15px;
   max-width: 404px;
   border-radius: 20px;
 }
@@ -406,6 +405,7 @@
 @media (min-width:576px) {
   :root {
     --fs-md: 20px;
+    --fs-3md: 32px;
     --fs-xxl: 30px;
     --fs-3xl: 40px;
   }
@@ -416,6 +416,22 @@
 
   .btn_padding {
     padding: 19px 32px;
+  }
+
+  .mb_sm_12 {
+    margin-bottom: 12px;
+  }
+
+  .mb_sm_18 {
+    margin-bottom: 18px;
+  }
+
+  .token_box {
+    padding: 27px 54px 39px 25px;
+  }
+
+  .gap_sm_18 {
+    gap: 18.53px;
   }
 
   .gap_sm_22 {
@@ -444,8 +460,8 @@
     line-height: 77.45px;
   }
 
-  .pt_lg_220 {
-    padding-top: 220px;
+  .pt_lg_106 {
+    padding-top: 106px;
   }
 
   .h_1114 {
@@ -482,8 +498,37 @@
     --fs-3xl: 64px;
   }
 
-  .mb_20 {
+  .mb_xl_20 {
     margin-bottom: 20px;
+  }
+
+  .pt_xl_220 {
+    padding-top: 220px;
+  }
+
+  .py_xl_16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .px_xl_22 {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .px_xl_26 {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+
+  .px_xl_68 {
+    padding-left: 68px;
+    padding-right: 68px;
+  }
+
+  .px_xl_72 {
+    padding-left: 72px;
+    padding-right: 72px;
   }
 }
 
