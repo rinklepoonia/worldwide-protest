@@ -1,7 +1,7 @@
 import React from 'react'
 function TokenSection() {
     return (
-        <div className='token_bg_img bg_100 bg_no_repeat bg_black h_1114 position-relative'>
+        <div className='token_bg_img bg_100 bg_no_repeat bg_black h_xl_1114 h_lg_800 position-relative'>
             <div className="container">
                 <div className='row pt_xl_220 pt_lg_106 py_30'>
                     <div className='col-lg-6'>

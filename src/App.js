@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection';
 import AppsSection from './components/AppsSection';
 import AboutSection from './components/AboutSection';
 import TokenSection from './components/TokenSection';
+import Utlity from './components/Utlity';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AppsSection />
       <AboutSection />
       <TokenSection />
+      <Utlity />
     </>
   );
 }
