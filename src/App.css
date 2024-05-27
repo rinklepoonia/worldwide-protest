@@ -33,9 +33,9 @@
   --fs-xxs: 14.83px;
   --fs-sm: 16px;
   --fs-md: 16px;
-  --fs-2md: 24px;
+  --fs-2md: 20px;
   --fs-3md: 25px;
-  --fs-lg: 36px;
+  --fs-lg: 20px;
   --fs-xl: 40.44px;
   --fs-xxl: 25px;
   --fs-3xl: 30px;
@@ -140,9 +140,9 @@
   line-height: 32.12px;
 }
 
-.lh_43 {
+/* .lh_43 {
   line-height: 43.57px;
-}
+} */
 
 .lh_48 {
   line-height: 48px;
@@ -166,6 +166,10 @@
 
 .opacity_80 {
   opacity: 80%;
+}
+
+.opacity_70 {
+  opacity: 70%;
 }
 
 /* ==========hero====== */
@@ -220,15 +224,15 @@
   gap: 10px;
 }
 
-.h_136 {
-  height: 136px;
+.h_100 {
+  height: 100px;
 }
 
 .max_w_400 {
   max-width: 400px;
 }
 
-.slick-track {
+.appslider .slick-track {
   display: flex !important;
   gap: 72px;
 }
@@ -354,8 +358,33 @@
   background-image: url(./assets/images/png/utlity-bg-img.png);
 }
 
+.pt_198 {
+  padding-top: 150px;
+}
+
 .max_w_200 {
   max-width: 200px;
+}
+
+.pos_diaryPaper {
+  right: 8%;
+  top: -7%;
+}
+
+.pos_fuding1 {
+  left: 7%;
+  top: 7%;
+
+}
+
+.pos_fuding2 {
+  top: 10%;
+  right: 39%;
+}
+
+.pos_fuding3 {
+  bottom: 5%;
+  right: 45%;
 }
 
 /* =========history-rotate-box======= */
@@ -363,17 +392,50 @@
   rotate: -1.2deg;
 }
 
+.mt_40 {
+  margin-top: 40px;
+}
+
+.mb_30 {
+  margin-bottom: 30px;
+}
+
 /* ===========ecosystem========= */
 .eco_bg_img {
   background-image: url(./assets/images/png/eco-bg-img.png);
 }
 
-.pt_107 {
-  padding-top: 107px;
+.pt_200_68 {
+  padding-top: 200px;
+  padding-bottom: 68px;
 }
 
 .max_w_265 {
   max-width: 265px;
+}
+
+.pos_EcoNews {
+  top: 5%;
+  left: 5%;
+}
+
+.specks_pos {
+  bottom: 5%;
+  right: 10%;
+}
+
+/* ======Roadmap======= */
+
+.pt_220 {
+  padding-top: 220px;
+}
+
+.pb_153 {
+  padding-bottom: 153px;
+}
+
+.mb_30 {
+  margin-bottom: 30px;
 }
 
 @media (max-width:576px) {
@@ -433,6 +495,7 @@
   :root {
     --fs-md: 20px;
     --fs-3md: 32px;
+    --fs-lg: 30px;
     --fs-xxl: 30px;
     --fs-3xl: 40px;
   }
@@ -465,6 +528,22 @@
     gap: 22px;
   }
 
+  .max_w_185 {
+    max-width: 185px;
+  }
+
+  .max_w_196 {
+    max-width: 196px;
+  }
+
+  .max_w_237 {
+    max-width: 237px;
+  }
+
+  .max_w_199 {
+    max-width: 199px;
+  }
+
   .hero_bg_img {
     background-image: url(./assets/images/svg/hero-bg-img.svg);
     background-size: 100% 100%;
@@ -473,6 +552,7 @@
 
 @media (min-width:768px) {
   :root {
+    --fs-2md: 24px;
     --fs-xxl: 40px;
   }
 
@@ -487,8 +567,13 @@
 
 @media (min-width:992px) {
   :root {
+    --fs-lg: 36px;
     --fs-xxl: 48px;
     --fs-3xl: 50px;
+  }
+
+  .lh_lg_43 {
+    line-height: 43px;
   }
 
   .lh_lg_77 {
@@ -504,7 +589,15 @@
   }
 
   .h_lg_800 {
-    height: 800px;
+    height: 900px;
+  }
+
+  .h_lg_136 {
+    height: 136px;
+  }
+
+  .h_1274 {
+    height: 1274px;
   }
 
   .w_50 {
@@ -529,6 +622,10 @@
 
   .token_bg_img {
     background-image: url(./assets/images/png/token-bg-img.png) !important;
+  }
+
+  .roadmap_bg_img {
+    background-image: url(./assets/images/png/roadmap-bg-img.png);
   }
 }
 

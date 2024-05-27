@@ -42,7 +42,7 @@ function AppsSection() {
     return (
         <div className='bg_orange h_136 d-flex align-items-center'>
             <div className='container'>
-                <Slider {...settings}>
+                <Slider className='appslider' {...settings}>
                     <div className='d-flex align-items-center justify-content-center gap_sm_22 gap_10'>
                         <img src={twitterLogo} alt=" twitterLogo" />
                         <h2 className='ff_inter fw-semibold text48_xxl lh_58 color_white mb-0'>twitter</h2>
