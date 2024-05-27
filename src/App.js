@@ -6,6 +6,8 @@ import AppsSection from './components/AppsSection';
 import AboutSection from './components/AboutSection';
 import TokenSection from './components/TokenSection';
 import Utlity from './components/Utlity';
+import HistoryBox from './components/HistoryBox';
+import EcoSection from './components/EcoSection';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <AboutSection />
       <TokenSection />
       <Utlity />
+      <HistoryBox />
+      <EcoSection/>
     </>
   );
 }

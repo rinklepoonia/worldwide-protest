@@ -259,10 +259,6 @@
 }
 
 /* ==========token-section======== */
-/* .token_topImg {
-  background-image: url(./assets/images/png/tokenCloud-1.png);
-} */
-
 .bg_no_repeat {
   background-repeat: no-repeat;
 }
@@ -360,6 +356,24 @@
 
 .max_w_200 {
   max-width: 200px;
+}
+
+/* =========history-rotate-box======= */
+.rotate_box {
+  rotate: -1.2deg;
+}
+
+/* ===========ecosystem========= */
+.eco_bg_img {
+  background-image: url(./assets/images/png/eco-bg-img.png);
+}
+
+.pt_107 {
+  padding-top: 107px;
+}
+
+.max_w_265 {
+  max-width: 265px;
 }
 
 @media (max-width:576px) {
@@ -464,6 +478,10 @@
 
   .max_w_md_441 {
     max-width: 441px;
+  }
+
+  .max_w_md_565 {
+    max-width: 565px;
   }
 }
 
