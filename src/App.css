@@ -45,7 +45,7 @@
   --fs-2md: 20px;
   --fs-3md: 25px;
   --fs-lg: 20px;
-  --fs-xl: 40.44px;
+  --fs-xl: 35px;
   --fs-xxl: 25px;
   --fs-3xl: 30px;
   --fs-4xl: 79px;
@@ -203,9 +203,9 @@
   padding-top: 40px;
 }
 
-.py_62_32 {
-  padding-top: 62px;
-  padding-bottom: 32px;
+.py_30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .gap_46 {
@@ -238,6 +238,26 @@
 
 .padding_btn {
   padding: 16px 19px;
+}
+
+.transition {
+  transition: all 0.2s linear;
+}
+
+.black_btn_hover:hover {
+  background: var(--clr-black) !important;
+  border: 1px solid var(--clr-white);
+  color: var(--clr-white);
+}
+
+.btn_hover:hover {
+  background: var(--clr-orange) !important;
+  border: 1px solid var(--clr-black);
+  color: var(--clr-black);
+}
+
+.zoom:hover {
+  scale: 1.1;
 }
 
 /* =========AppsSection======= */
@@ -576,7 +596,7 @@
   .menu span:nth-child(3) {
     height: 4px;
     width: 35px;
-    background:var(--clr-white);
+    background: var(--clr-white);
     display: block;
     transition: 300ms linear;
   }
@@ -599,6 +619,7 @@
     --fs-md: 20px;
     --fs-3md: 32px;
     --fs-lg: 30px;
+    --fs-xl: 40.44px;
     --fs-xxl: 30px;
     --fs-3xl: 40px;
   }
@@ -768,6 +789,11 @@
   .px_xl_72 {
     padding-left: 72px;
     padding-right: 72px;
+  }
+
+  .py_xl_62_32 {
+    padding-top: 62px;
+    padding-bottom: 32px;
   }
 
   .h_xl_1114 {
