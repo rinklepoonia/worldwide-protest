@@ -4,8 +4,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  list-style-type: none;
-  text-decoration: none;
+  list-style-type: none !important;
+  text-decoration: none !important;
 }
 
 @font-face {
@@ -187,6 +187,13 @@
 }
 
 /* ==========hero====== */
+.gap_20 {
+  gap: 20px;
+}
+
+.mt_33 {
+  margin-top: -33px;
+}
 
 .h_754 {
   height: 754px;
@@ -274,6 +281,11 @@
 
 .max_w_40 {
   max-width: 40px !important;
+}
+
+.specks_about_Pos {
+  bottom: 10px;
+  right: 20px;
 }
 
 /* ==========token-section======== */
@@ -486,6 +498,31 @@
   left: 7%;
 }
 
+/* ===========footer========= */
+.py_150 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.mb_40 {
+  margin-bottom: 40px;
+}
+
+.mb_30 {
+  margin-bottom: 30px;
+}
+
+.ps_66 {
+  padding-left: 66px;
+}
+
+.orange_line::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background: var(--clr-orange);
+}
 
 @media (max-width:576px) {
   .flex_wrap {

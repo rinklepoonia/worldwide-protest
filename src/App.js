@@ -10,6 +10,7 @@ import HistoryBox from './components/HistoryBox';
 import EcoSection from './components/EcoSection';
 import RoadmapSection from './components/RoadmapSection';
 import Latest from './components/Latest';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <RoadmapSection />
       <Latest />
       <AppsSection />
+     <Footer/>
     </>
   );
 }

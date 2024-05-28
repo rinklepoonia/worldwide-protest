@@ -40,7 +40,7 @@ function AppsSection() {
         ]
     };
     return (
-        <div className='bg_orange h_lg_136 h_100 d-flex align-items-center'>
+        <div className='bg_orange h_lg_136 h_100 d-flex align-items-center mt_33'>
             <div className='container'>
                 <Slider className='appslider' {...settings}>
                     <div className='d-flex align-items-center justify-content-center gap_sm_22 gap_10'>

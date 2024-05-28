@@ -13,7 +13,7 @@ function HeroSection() {
                         <p className='ff_inter fw-extrabold text40_xl lh_48 color_white mb-0'>Gxxx Gxxxxxx</p>
                         <input type='checkbox' id='menuIcon' hidden />
                         <ul className='d-flex align-items-center gap_46 menuList ps-0'>
-                            <ul className='d-flex flex_column gap-5 ps-0'>
+                            <ul className='d-flex flex_column gap_20 ps-0'>
                                 <a href="https://www.dextools.io/app/en/pairs" target='_blank'><img src={DextoolImg} alt="DextoolImg" /></a>
                                 <a href="https://x.com/?lang=en" target='_blank'><img src={twitterImg} alt="twitterImg" /></a>
                                 <a href="https://telegram.org/" target='_blank'><img src={telegramImg} alt="telegramImg" /></a>
