@@ -488,6 +488,7 @@
   width: 100%;
   background-color: var(--clr-white);
   transition: all 0.2s linear;
+  cursor: pointer;
 }
 
 .latest_box:hover {
