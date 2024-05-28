@@ -16,7 +16,7 @@ function Latest() {
             <div className="container">
                 <h3 className='ff_inter fw-extrabold text64_3xl lh_lg_77 lh_sm_60 lh_43 color_black  text-center pb_xl_96 pb_lg_30 pb_15 mb-0'>LATEST NEWS</h3>
                 <div className='d-flex flex-wrap gap-4 justify-content-center'>
-                    <div className='latest_box'>
+                    <div data-aos="fade-up" className='latest_box'>
                         <div className='d-flex gap-3 align-items-center mb_lg_20'>
                             <img src={LatestImg} alt="LatestImg" />
                             <div className='blank'>
@@ -44,7 +44,7 @@ function Latest() {
                             <img src={sentImg} alt="sentImg" />
                         </div>
                     </div>
-                    <div className='latest_box'>
+                    <div data-aos="fade-up" className='latest_box'>
                         <div className='d-flex gap-3 align-items-center mb_lg_20'>
                             <img src={LatestImg} alt="LatestImg" />
                             <div className='blank'>
@@ -72,7 +72,7 @@ function Latest() {
                             <img src={sentImg} alt="sentImg" />
                         </div>
                     </div>
-                    <div className='latest_box'>
+                    <div data-aos="fade-up" className='latest_box'>
                         <div className='d-flex gap-3 align-items-center mb_lg_20'>
                             <img src={LatestImg} alt="LatestImg" />
                             <div className='blank'>
@@ -102,7 +102,7 @@ function Latest() {
                     </div>
                 </div>
                 <div className='d-flex flex-wrap gap-4 justify-content-center mt-4'>
-                    <div className='latest_box'>
+                    <div data-aos="fade-up" className='latest_box'>
                         <div className='d-flex gap-3 align-items-center mb_lg_20'>
                             <img src={LatestImg} alt="LatestImg" />
                             <div className='blank'>
@@ -130,7 +130,7 @@ function Latest() {
                             <img src={sentImg} alt="sentImg" />
                         </div>
                     </div>
-                    <div className='latest_box'>
+                    <div data-aos="fade-up" className='latest_box'>
                         <div className='d-flex gap-3 align-items-center mb_lg_20'>
                             <img src={LatestImg} alt="LatestImg" />
                             <div className='blank'>
@@ -158,7 +158,7 @@ function Latest() {
                             <img src={sentImg} alt="sentImg" />
                         </div>
                     </div>
-                    <div className='latest_box'>
+                    <div data-aos="fade-up" className='latest_box'>
                         <div className='d-flex gap-3 align-items-center mb_lg_20'>
                             <img src={LatestImg} alt="LatestImg" />
                             <div className='blank'>

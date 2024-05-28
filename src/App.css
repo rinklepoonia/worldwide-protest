@@ -261,6 +261,10 @@
   height: 100px;
 }
 
+.h_136 {
+  height: 136px;
+}
+
 .max_w_400 {
   max-width: 400px;
 }
@@ -428,7 +432,7 @@
 }
 
 .mt_40 {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .mb_10 {
@@ -450,8 +454,8 @@
 }
 
 .pos_EcoNews {
-  top: 5%;
-  left: 5%;
+  top: 0;
+  left: 1%;
 }
 
 .specks_pos {
@@ -513,7 +517,6 @@
 .latestPhn_pos {
   top: -1%;
   left: 3%;
-  z-index: -1;
 }
 
 /* ===========footer========= */
@@ -629,6 +632,10 @@
 
   .latest_flex_wrap {
     flex-wrap: wrap;
+  }
+
+  .w_100 {
+    width: 100%;
   }
 }
 
@@ -755,8 +762,8 @@
     padding-top: 155px;
   }
 
-  .pt_lg_106 {
-    padding-top: 106px;
+  .pt_lg_200 {
+    padding-top: 200px;
   }
 
   .py_lg_90 {
@@ -784,6 +791,10 @@
 
   .mb_lg_20 {
     margin-bottom: 20px;
+  }
+
+  .mr_35 {
+    margin-right: 35px;
   }
 
   .h_lg_900 {
@@ -815,7 +826,7 @@
   }
 
   .max_w_lg_940 {
-    max-width: 940px;
+    max-width: 688px;
   }
 
   .max_w_lg_60 {
@@ -908,7 +919,7 @@
 
   .py_xl_134_104 {
     padding-top: 134px;
-    padding-bottom: 104px;
+    padding-bottom: 70px;
   }
 
   .h_xl_1114 {
@@ -927,6 +938,11 @@
   .latestLaptop_pos {
     top: 4%;
     right: 7%;
+  }
+
+  .pos_EcoNews {
+    top: 13px;
+    left: 6%;
   }
 }
 

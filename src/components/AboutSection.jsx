@@ -15,10 +15,10 @@ function AboutSection() {
             <div className='container'>
                 <div className="row justify-content-between">
                     <div data-aos="fade-up" className="max_w_688 w_50 d-flex justify-content-center">
-                        <img className='w-100 max_w_lg_940 max_w_sm_530 max_w_300 h-100 object-fit-contain d-md-block d-none' src={AboutImg} alt="AboutImg" />
-                        <img className='w-100 max_w_lg_940 max_w_sm_530 max_w_300 h-100 object-fit-contain d-md-none d-block' src={AboutImg2} alt="AboutImg2" />
+                        <img className='w-1 00 max_w_lg_940 max_w_sm_530 max_w_300 h-100 object-fit-contain d-lg-block d-none' src={AboutImg} alt="AboutImg" />
+                        <img className='w-100 max_w_lg_940 max_w_sm_530 max_w_300 h-100 object-fit-contain d-lg-none d-block' src={AboutImg2} alt="AboutImg2" />
                     </div>
-                    <div className="max_w_571 w_50 pt_lg_84 pt_20">
+                    <div className="max_w_571 w_50 pt_lg_84 pt_20 mr_35">
                         <div className='d-flex flex-wrap align-items-center gap-md-4 gap-2 mb-xl-4 mb-2 '>
                             <a href="https://www.dextools.io/app/en/pairs" target='_blank'><img className='max_w_lg_60 max_w_40 zoom transition' src={DexImg} alt="DexImg" /></a>
                             <a href="https://www.google.co.in/" target='_blank'> <img className='max_w_lg_60 max_w_40 zoom transition' src={horseImg} alt="horseImg" /></a>

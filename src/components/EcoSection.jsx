@@ -11,11 +11,11 @@ function EcoSection() {
     return (
         <div className='eco_bg_img pt_xl_200_110 pt_lg_145_53 pt_0_30 position-relative'>
             <div className='position-absolute specks_pos d-lg-block d-none'><img src={specksImg} alt="specksImg" /></div>
-            <div className='position-absolute pos_EcoNews d-lg-block d-none'><img src={EcoNewsImg} alt="EcoNewsImg" /></div>
+            <div className='position-absolute pos_EcoNews d-lg-block d-none z-1'><img src={EcoNewsImg} alt="EcoNewsImg" /></div>
             <div className="container">
                 <div className="row justify-content-between">
                     <div data-aos="fade-up" className="col-lg-5 d-flex justify-content-center">
-                        <img className='w-100 max_w_md_565 max_w_265' src={EcoBoyImg} alt="EcoBoyImg " />
+                        <img className='w_100 max_w_md_565 max_w_265' src={EcoBoyImg} alt="EcoBoyImg " />
                     </div>
                     <div data-aos="fade-up" className="col-lg-6 d-flex justify-content-center pt-lg-0 pt-3">
                         <div className='blank'>
