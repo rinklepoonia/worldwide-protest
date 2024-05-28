@@ -10,7 +10,7 @@ import Slider from 'react-slick';
 
 function RoadmapSection() {
     var setting = {
-        dots: true,
+        dots: false,
         infinite: true,
         arrows: false,
         speed: 500,
@@ -82,7 +82,6 @@ function RoadmapSection() {
                     </div>
                 </div>
             </Slider>
-
         </div>
     )
 }

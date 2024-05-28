@@ -9,6 +9,7 @@ import Utlity from './components/Utlity';
 import HistoryBox from './components/HistoryBox';
 import EcoSection from './components/EcoSection';
 import RoadmapSection from './components/RoadmapSection';
+import Latest from './components/Latest';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       <Utlity />
       <HistoryBox />
       <EcoSection />
-      <RoadmapSection/>
+      <RoadmapSection />
+      <Latest/>
     </>
   );
 }

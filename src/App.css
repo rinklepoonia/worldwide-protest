@@ -8,8 +8,17 @@
   text-decoration: none;
 }
 
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url(./assets/fonts/FontsFree-Net-SFProText-Regular.ttf);
+}
+
 .ff_inter {
   font-family: 'Inter', sans-serif;
+}
+
+.ff_pro {
+  font-family: 'SF Pro Text', sans-serif;
 }
 
 .fw-normal {
@@ -46,6 +55,11 @@
   --clr-black: #000000;
   --clr-orange: #FC9800;
   --clr-borderGry: #FFFFFF80;
+  --clr-lightblack: #4D4D4D;
+}
+
+.color_lightBlack {
+  color: var(--clr-lightblack);
 }
 
 .color_black {
@@ -438,6 +452,41 @@
   margin-bottom: 30px;
 }
 
+.pb_96 {
+  padding-bottom: 96px;
+}
+
+
+/* ================latest-news======= */
+.py_125_96 {
+  padding-top: 125px;
+  padding-bottom: 96px;
+}
+
+.latest_box {
+  border: 1px solid var(--clr-black);
+  padding: 26px 22px 19px 22px;
+  max-width: 367px;
+  width: 100%;
+  background-color: var(--clr-white);
+}
+
+.bg_img_latest {
+  background-image: url(./assets/images/png/latest-bg-img.png);
+  background-position: center;
+}
+
+.latestLaptop_pos {
+  top: 4%;
+  right: 7%;
+}
+
+.latestPhn_pos {
+  top: 8%;
+  left: 7%;
+}
+
+
 @media (max-width:576px) {
   .flex_wrap {
     flex-wrap: wrap;
@@ -488,6 +537,10 @@
 
   .bg_black {
     background: var(--clr-black);
+  }
+
+  .latest_flex_wrap {
+    flex-wrap: wrap;
   }
 }
 
