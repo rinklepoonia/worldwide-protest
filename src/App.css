@@ -831,6 +831,7 @@
 
   .roadmap_bg_img {
     background-image: url(./assets/images/png/roadmap-bg-img.png);
+    background-size: 100% 100%;
   }
 }
 
