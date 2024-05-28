@@ -499,8 +499,8 @@
   transition: all 0.2s linear;
 }
 
-.latest_box:hover{
-  scale: 0.9;
+.latest_box:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
 .bg_img_latest {
