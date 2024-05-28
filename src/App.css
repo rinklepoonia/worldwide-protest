@@ -496,6 +496,11 @@
   max-width: 367px;
   width: 100%;
   background-color: var(--clr-white);
+  transition: all 0.2s linear;
+}
+
+.latest_box:hover{
+  scale: 0.9;
 }
 
 .bg_img_latest {

@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
@@ -11,8 +12,20 @@ import EcoSection from './components/EcoSection';
 import RoadmapSection from './components/RoadmapSection';
 import Latest from './components/Latest';
 import Footer from './components/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 1200,
+      }
+    );
+    Aos.refresh()
+  });
   return (
     <div className='overflow-hidden'>
       <HeroSection />
@@ -25,7 +38,7 @@ function App() {
       <RoadmapSection />
       <Latest />
       <AppsSection />
-     <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -14,10 +14,10 @@ function EcoSection() {
             <div className='position-absolute pos_EcoNews d-lg-block d-none'><img src={EcoNewsImg} alt="EcoNewsImg" /></div>
             <div className="container">
                 <div className="row justify-content-between">
-                    <div className="col-lg-5 d-flex justify-content-center">
+                    <div data-aos="fade-up" className="col-lg-5 d-flex justify-content-center">
                         <img className='w-100 max_w_md_565 max_w_265' src={EcoBoyImg} alt="EcoBoyImg " />
                     </div>
-                    <div className="col-lg-6 d-flex justify-content-center pt-lg-0 pt-3">
+                    <div data-aos="fade-up" className="col-lg-6 d-flex justify-content-center pt-lg-0 pt-3">
                         <div className='blank'>
                             <div className='d-flex flex-wrap align-items-center gap-md-4 gap-2 mb-2 '>
                                 <a href="https://www.dextools.io/app/en/pairs" target='_blank'><img className='max_w_lg_60 max_w_40 zoom transition' src={DexImg} alt="DexImg" /></a>
