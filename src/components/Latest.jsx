@@ -10,11 +10,11 @@ import PhnImg from '../assets/images/svg/latest-phn-img.svg'
 
 function Latest() {
     return (
-        <div className='bg_img_latest bg_no_repeat py_125_140 position-relative'>
+        <div className='bg_img_latest bg_no_repeat py_xl_125_140 pt_lg_30_100 py_30_70 position-relative'>
             <div className='position-absolute latestLaptop_pos d-lg-block d-none'><img src={laptopImg} alt="laptopImg" /></div>
-            <div className='position-absolute latestPhn_pos d-lg-block d-none'><img src={PhnImg} alt="PhnImg" /></div>
+            <div className='position-absolute latestPhn_pos d-sm-block d-none'><img src={PhnImg} alt="PhnImg" /></div>
             <div className="container">
-                <h3 className='ff_inter fw-extrabold text64_3xl lh_lg_77 lh_sm_60 lh_43 color_black mb_lg_20 mb_0 text-center pb_96'>LATEST NEWS</h3>
+                <h3 className='ff_inter fw-extrabold text64_3xl lh_lg_77 lh_sm_60 lh_43 color_black  text-center pb_xl_96 pb_lg_30 pb_15 mb-0'>LATEST NEWS</h3>
                 <div className='d-flex flex-wrap gap-4 justify-content-center'>
                     <div className='latest_box'>
                         <div className='d-flex gap-3 align-items-center mb_lg_20'>

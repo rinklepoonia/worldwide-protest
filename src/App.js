@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+    <div className='overflow-hidden'>
       <HeroSection />
       <AppsSection />
       <AboutSection />
@@ -26,7 +26,7 @@ function App() {
       <Latest />
       <AppsSection />
      <Footer/>
-    </>
+    </div>
   );
 }
 
