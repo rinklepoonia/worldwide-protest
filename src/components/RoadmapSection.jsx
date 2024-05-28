@@ -44,7 +44,7 @@ function RoadmapSection() {
         <div className='roadmap_bg_img bg_no_repeat  pt_xl_280 pt_lg_155 pt_md_50 pt_30 h_xl_1274 h_lg_1031 bg_black'>
             <div className="container">
                 <h3 data-aos="zoom-in" className='ff_inter fw-extrabold text64_3xl lh_lg_77 lh_sm_60 lh_43 color_white mb_lg_20 mb_0 text-center'>ROADMAP</h3>
-                <p data-aos="zoom-in" className='ff_inter fw-normal text16_sm lh_30 color_white opacity_70 text-center pb_xl_153 pb_lg_90 pb_40 mb-0'>Our roadmap isn't just a journey; it's a comedic adventure  through the cryptoverse, filled with twists, turns, and plenty of  laughs along the way. Here's a glimpse into what the future holds  for Let's Hug GG ($LHGG)</p>
+                <p data-aos="zoom-in" className='ff_inter fw-normal text16_sm lh_30 color_white opacity_70 text-center pb_xl_153 pb_lg_90 pb_40 mb-0 max_w_894 text-center mx-auto'>Our roadmap isn't just a journey; it's a comedic adventure  through the cryptoverse, filled with twists, turns, and plenty of  laughs along the way. Here's a glimpse into what the future holds  for Let's Hug GG ($LHGG)</p>
             </div>
             <Slider className='roadmap' {...setting}>
                 <div className='d-flex gap-2 justify-content-center'>

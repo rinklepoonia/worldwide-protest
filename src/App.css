@@ -387,6 +387,7 @@
   border: 1px solid var(--clr-black);
 }
 
+
 .fit_content {
   width: fit-content;
 }
@@ -475,6 +476,10 @@
   padding-bottom: 15px;
 }
 
+.max_w_894 {
+  max-width: 894px;
+}
+
 /* ================latest-news======= */
 .py_30_70 {
   padding-top: 30px;
@@ -488,7 +493,7 @@
   width: 100%;
   background-color: var(--clr-white);
   transition: all 0.2s linear;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 .latest_box:hover {
