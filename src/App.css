@@ -404,10 +404,6 @@
   background-image: url(./assets/images/png/utlity-bg-img.png);
 }
 
-.pt_198 {
-  padding-top: 150px;
-}
-
 .max_w_200 {
   max-width: 200px;
 }
@@ -777,6 +773,10 @@
 
   .pt_xl_260 {
     padding-top: 260px;
+  }
+
+  .pt_xl_198 {
+    padding-top: 150px;
   }
 
   .py_xl_16 {

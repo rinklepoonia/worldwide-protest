@@ -7,9 +7,9 @@ import loveFuding3 from '../assets/images/svg/fuding3.svg'
 
 function Utlity() {
     return (
-        <div className='utility_bg_img pt_198 position-relative'>
+        <div className='utility_bg_img pt_xl_198 position-relative'>
             <div className='position-absolute pos_diaryPaper d-lg-block d-none'><img src={diaryImg} alt="diaryImg" /></div>
-            <div className='position-absolute pos_fuding1'><img src={loveFuding1} alt="loveFuding1" /></div>
+            <div className='position-absolute pos_fuding1 d-xl-block d-none'><img src={loveFuding1} alt="loveFuding1" /></div>
             <div className='position-absolute pos_fuding2 d-lg-block d-none '><img src={loveFuding2} alt="loveFuding2" /></div>
             <div className='position-absolute pos_fuding3 d-lg-block d-none'><img src={loveFuding3} alt="loveFuding3" /></div>
             <div className="container">
