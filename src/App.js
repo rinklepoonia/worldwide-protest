@@ -22,7 +22,8 @@ function App() {
       <HistoryBox />
       <EcoSection />
       <RoadmapSection />
-      <Latest/>
+      <Latest />
+      <AppsSection />
     </>
   );
 }
