@@ -14,6 +14,7 @@ function RoadmapSection() {
         infinite: true,
         arrows: false,
         speed: 500,
+        autoplay: true,
         slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [
@@ -79,6 +80,13 @@ function RoadmapSection() {
                     <div className='d-flex flex-column justify-content-center'>
                         <h4 className='ff_inter fw-extrabold text24_2md lh_29 color_white max_w_237 mb-md-2 mb-0'> Utility Expansion (Q1 2025)</h4>
                         <p className='ff_inter fw-semibold text16_sm lh_30 color_white opacity_70 max_w_237 mb-0'>Explore new use cases and  integrations for $LHGG.</p>
+                    </div>
+                </div>
+                <div className='d-flex gap-2 justify-content-center'>
+                    <img className='ms-md-0 ms-2' src={Roadmap3} alt="Roadmap3" />
+                    <div className='d-flex flex-column justify-content-start'>
+                        <h4 className='ff_inter fw-extrabold text24_2md lh_29 color_white max_w_237 mb-md-2 mb-0 mt-3'>Governance Implementation (Q3 2024)</h4>
+                        <p className='ff_inter fw-semibold text16_sm lh_30 color_white opacity_70 max_w_199'>Introduce community  governance mechanisms.</p>
                     </div>
                 </div>
             </Slider>

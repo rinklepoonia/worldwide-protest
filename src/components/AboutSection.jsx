@@ -20,11 +20,11 @@ function AboutSection() {
                     </div>
                     <div className="max_w_571 w_50 pt_lg_84 pt_20">
                         <div className='d-flex flex-wrap align-items-center gap-md-4 gap-2 mb-xl-4 mb-2 '>
-                            <img className='max_w_lg_60 max_w_40' src={DexImg} alt="DexImg" />
-                            <img className='max_w_lg_60 max_w_40' src={horseImg} alt="horseImg" />
-                            <img className='max_w_lg_60 max_w_40' src={TwitterImg} alt="TwitterImg" />
-                            <img className='max_w_lg_60 max_w_40' src={telImg} alt="telImg" />
-                            <img className='max_w_lg_60 max_w_40' src={lastlogo} alt="lastlogo" />
+                            <a href="https://www.dextools.io/app/en/pairs" target='_blank'><img className='max_w_lg_60 max_w_40 zoom transition' src={DexImg} alt="DexImg" /></a>
+                            <a href="https://www.google.co.in/" target='_blank'> <img className='max_w_lg_60 max_w_40 zoom transition' src={horseImg} alt="horseImg" /></a>
+                            <a href="https://x.com/?lang=en" target='_blank'> <img className='max_w_lg_60 max_w_40 zoom transition' src={TwitterImg} alt="TwitterImg" /></a>
+                            <a href="https://telegram.org/" target='_blank'><img className='max_w_lg_60 max_w_40 zoom transition' src={telImg} alt="telImg" /></a>
+                            <a href="https://www.google.co.in/" target='_blank'> <img className='max_w_lg_60 max_w_40 zoom transition' src={lastlogo} alt="lastlogo" /></a>
                         </div>
                         <h3 className='ff_inter fw-extrabold text64_3xl lh_lg_77 lh_sm_60 lh_43 color_black mb_xl_20 mb_0'>ABOUT US</h3>
                         <p className='ff_inter fw-normal text16_sm lh_25 color_black opacity_80 max_w_550'> In the ever-evolving landscape of cryptocurrency, where markets  can swing on a tweet and sentiments wield as much power as  technical analysis, one figure has recently stepped into the  spotlight: Gary Gensler, or as we affectionately call him, GG. With his  recent comments on Bitcoin, Gensler stirred the pot of fear,  uncertainty, and doubt (FUD), sending shockwaves through the  crypto community.</p>

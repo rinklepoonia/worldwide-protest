@@ -540,6 +540,26 @@
   background: var(--clr-orange);
 }
 
+.underline::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: var(--clr-orange);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.2s linear;
+}
+
+.underline:hover::after {
+  width: 100%;
+}
+
+.underline:hover {
+  color: var(--clr-orange);
+}
+
 @media (max-width:576px) {
   .flex_wrap {
     flex-wrap: wrap;
@@ -792,7 +812,7 @@
     max-width: 550px !important;
   }
 
-  .max_w_940 {
+  .max_w_lg_940 {
     max-width: 940px;
   }
 
@@ -845,7 +865,7 @@
   }
 
   .pt_xl_198 {
-    padding-top: 150px;
+    padding-top: 160px;
   }
 
   .py_xl_16 {

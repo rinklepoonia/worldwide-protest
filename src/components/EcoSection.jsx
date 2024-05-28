@@ -20,15 +20,15 @@ function EcoSection() {
                     <div className="col-lg-6 d-flex justify-content-center pt-lg-0 pt-3">
                         <div className='blank'>
                             <div className='d-flex flex-wrap align-items-center gap-md-4 gap-2 mb-2 '>
-                                <img className='max_w_lg_60 max_w_40' src={DexImg} alt="DexImg" />
-                                <img className='max_w_lg_60 max_w_40' src={horseImg} alt="horseImg" />
-                                <img className='max_w_lg_60 max_w_40' src={TwitterImg} alt="TwitterImg" />
-                                <img className='max_w_lg_60 max_w_40' src={telImg} alt="telImg" />
-                                <img className='max_w_lg_60 max_w_40' src={lastlogo} alt="lastlogo" />
+                                <a href="https://www.dextools.io/app/en/pairs" target='_blank'><img className='max_w_lg_60 max_w_40 zoom transition' src={DexImg} alt="DexImg" /></a>
+                                <a href="https://www.google.co.in/" target='_blank'> <img className='max_w_lg_60 max_w_40 zoom transition' src={horseImg} alt="horseImg" /></a>
+                                <a href="https://x.com/?lang=en" target='_blank'> <img className='max_w_lg_60 max_w_40 zoom transition' src={TwitterImg} alt="TwitterImg" /></a>
+                                <a href="https://telegram.org/" target='_blank'><img className='max_w_lg_60 max_w_40 zoom transition' src={telImg} alt="telImg" /></a>
+                                <a href="https://www.google.co.in/" target='_blank'> <img className='max_w_lg_60 max_w_40 zoom transition' src={lastlogo} alt="lastlogo" /></a>
                             </div>
                             <h3 className='ff_inter fw-extrabold text64_3xl lh_lg_77 lh_sm_60 lh_43 mt-lg-0 mt-sm-3 mt-0 mb_lg_20 mb_0'>ECOSYSTEM</h3>
                             <p className='ff_inter fw-normal text16_sm lh_25 color_black max_w_550 opacity_80 mb-sm-4 mb-0 pb-2'>The $LHGG ecosystem is built upon the principles of inclusivity,  humor, and innovation. Our community-driven approach  empowers members to actively participate in governance,  decision-making, and promotional activities. Through social  media campaigns, memes, and creative content, we seek to  amplify the message of embracing humor in the crypto space  and challenging conventional narratives. Together, we aspire to  foster a vibrant and engaging ecosystem where laughter reigns  supreme.</p>
-                            <button className='ff_inter fw-semibold text16_sm lh_19 color_black bg_orange btn_padding btn_borderRadius border_transparent fit_content'>Buy $GrayGensler</button>
+                            <button className='ff_inter fw-semibold text16_sm lh_19 color_black bg_orange btn_padding btn_borderRadius border_transparent fit_content black_btn_hover transition'>Buy $GrayGensler</button>
                         </div>
                     </div>
                 </div>
