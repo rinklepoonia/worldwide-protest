@@ -431,9 +431,9 @@
   background-image: url(./assets/images/png/eco-bg-img.png);
 }
 
-.pt_200_68 {
+.pt_200_110 {
   padding-top: 200px;
-  padding-bottom: 68px;
+  padding-bottom: 110px;
 }
 
 .max_w_265 {
@@ -452,8 +452,8 @@
 
 /* ======Roadmap======= */
 
-.pt_220 {
-  padding-top: 220px;
+.pt_280 {
+  padding-top: 280px;
 }
 
 .pb_153 {
@@ -470,9 +470,9 @@
 
 
 /* ================latest-news======= */
-.py_125_96 {
+.py_125_140 {
   padding-top: 125px;
-  padding-bottom: 96px;
+  padding-bottom: 140px;
 }
 
 .latest_box {
@@ -530,28 +530,21 @@
   }
 }
 
-@media (max-width:992px) {
-  .overFlowHidden {
+@media (max-width:991.99px) {
+  .z_6 {
+    z-index: 6;
+  }
+
+  .overflow_hidden {
     overflow: hidden !important;
   }
 
-  label[for="menuIcon"] {
-    width: 36px;
-    height: 29px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    position: relative;
-    z-index: 7;
+  .right_100 {
+    right: -100%;
   }
 
-  label[for="menuIcon"]>span {
-    height: 3px;
-    background: white;
-  }
-
-  .menuList {
-    background-color: black;
+  .mobile-view {
+    background-color: var(--clr-orange);
     height: 100%;
     width: 50%;
     position: fixed;
@@ -564,8 +557,28 @@
     z-index: 6;
   }
 
-  input:checked~ul.menuList {
-    right: 0;
+  .menu span:nth-child(1) {
+    height: 4px;
+    width: 35px;
+    background: var(--clr-white);
+    display: block;
+    transition: 300ms linear;
+  }
+
+  .menu span:nth-child(2) {
+    height: 4px;
+    width: 35px;
+    background: var(--clr-white);
+    display: block;
+    transition: 300ms linear;
+  }
+
+  .menu span:nth-child(3) {
+    height: 4px;
+    width: 35px;
+    background:var(--clr-white);
+    display: block;
+    transition: 300ms linear;
   }
 
   .flex_column {

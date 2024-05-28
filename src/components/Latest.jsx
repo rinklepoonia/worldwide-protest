@@ -10,7 +10,7 @@ import PhnImg from '../assets/images/svg/latest-phn-img.svg'
 
 function Latest() {
     return (
-        <div className='bg_img_latest bg_no_repeat py_125_96 position-relative'>
+        <div className='bg_img_latest bg_no_repeat py_125_140 position-relative'>
             <div className='position-absolute latestLaptop_pos d-lg-block d-none'><img src={laptopImg} alt="laptopImg" /></div>
             <div className='position-absolute latestPhn_pos d-lg-block d-none'><img src={PhnImg} alt="PhnImg" /></div>
             <div className="container">

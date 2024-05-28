@@ -40,7 +40,7 @@ function RoadmapSection() {
         ]
     };
     return (
-        <div className='roadmap_bg_img bg_no_repeat bg_cover pt_220 h_1274 bg_black'>
+        <div className='roadmap_bg_img bg_no_repeat bg_cover pt_280 h_1274 bg_black'>
             <div className="container">
                 <h3 className='ff_inter fw-extrabold text64_3xl lh_lg_77 lh_sm_60 lh_43 color_white mb_lg_20 mb_0 text-center'>ROADMAP</h3>
                 <p className='ff_inter fw-normal text16_sm lh_30 color_white opacity_70 text-center pb_153'>Our roadmap isn't just a journey; it's a comedic adventure  through the cryptoverse, filled with twists, turns, and plenty of  laughs along the way. Here's a glimpse into what the future holds  for Let's Hug GG ($LHGG)</p>
