@@ -8,11 +8,11 @@ import loveFuding3 from '../assets/images/svg/fuding3.svg'
 function Utlity() {
     return (
         <div className='utility_bg_img pt_xl_198 position-relative'>
-            <div className='position-absolute pos_diaryPaper d-lg-block d-none'><img src={diaryImg} alt="diaryImg" /></div>
+            <div className='position-absolute pos_diaryPaper d-lg-block d-none z-1'><img src={diaryImg} alt="diaryImg" /></div>
             <div className='position-absolute pos_fuding1 d-xl-block d-none'><img src={loveFuding1} alt="loveFuding1" /></div>
-            <div className='position-absolute pos_fuding2 d-lg-block d-none '><img src={loveFuding2} alt="loveFuding2" /></div>
-            <div className='position-absolute pos_fuding3 d-lg-block d-none'><img src={loveFuding3} alt="loveFuding3" /></div>
-            <div className="container">
+            <div className='position-absolute pos_fuding2 d-lg-block d-none z-1'><img src={loveFuding2} alt="loveFuding2" /></div>
+            <div className='position-absolute pos_fuding3 d-lg-block d-none z-1'><img src={loveFuding3} alt="loveFuding3" /></div>
+            <div className="container custam_container">
                 <div className="row flex-lg-row flex-column-reverse">
                     <div data-aos="fade-up" className="col-lg-6 d-flex justify-content-center align-items-center flex-column">
                         <div className='blank'>

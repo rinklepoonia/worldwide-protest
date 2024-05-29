@@ -12,10 +12,10 @@ function AboutSection() {
     return (
         <div className='about_bg_img py_xl_134_104 py_sm_50 py_20 position-relative'>
             <div className='position-absolute specks_about_Pos d-xl-block d-none'><img src={specksImg} alt="specksImg" /></div>
-            <div className='container'>
+            <div className='container custam_container'>
                 <div className="row justify-content-between">
                     <div data-aos="fade-up" className="max_w_688 w_50 d-flex justify-content-center">
-                        <img className='w-1 00 max_w_lg_940 max_w_sm_530 max_w_300 h-100 object-fit-contain d-lg-block d-none' src={AboutImg} alt="AboutImg" />
+                        <img className='w-100 max_w_lg_940 max_w_sm_530 max_w_300 h-100 object-fit-contain d-lg-block d-none' src={AboutImg} alt="AboutImg" />
                         <img className='w-100 max_w_lg_940 max_w_sm_530 max_w_300 h-100 object-fit-contain d-lg-none d-block' src={AboutImg2} alt="AboutImg2" />
                     </div>
                     <div className="max_w_571 w_50 pt_lg_84 pt_20 mr_35">

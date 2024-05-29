@@ -13,9 +13,9 @@ function HeroSection() {
         document.body.classList.remove("overflow_hidden");
     }
     return (
-        <div className='bg-black hero_bg_img min_vh_100 h_754 d-flex flex-column'>
+        <div className='bg-black hero_bg_img bg_100_100 min_vh_100 h_754 d-flex flex-column'>
             <div className='pt_40'>
-                <div className='container'>
+                <div className='custam_container container'>
                     <div className='d-flex justify-content-between align-items-center'>
                         <a href="">
                             <p className='ff_inter fw-extrabold text40_xl lh_48 color_white mb-0'>Gxxx Gxxxxxx</p>
@@ -37,7 +37,7 @@ function HeroSection() {
                 </div>
             </div>
             <div className='position-relative flex-grow-1 d-flex align-items-center'>
-                <div className='container'>
+                <div className='container custam_container'>
                     <div className="row">
                         <div className="col-lg-6">
                             <h1 className='ff_inter fw-extrabold text108_5xl lh_130 color_white mb-0'>G<span className='color_orange'>G</span></h1>

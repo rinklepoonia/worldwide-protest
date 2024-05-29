@@ -2,7 +2,7 @@ import React from 'react'
 function TokenSection() {
     return (
         <div className='token_bg_img bg_100 bg_no_repeat bg_black h_xl_1114 h_lg_900 position-relative'>
-            <div className="container">
+            <div className="container custam_container">
                 <div className='row pt_xl_260 pt_lg_200 py_30 justify-content-center'>
                     <div data-aos="zoom-in" className='col-lg-5'>
                         <h3 className='ff_inter fw-extrabold text64_3xl lh_lg_77 lh_sm_60 lh_43 color_white mb_xl_20 mb_10 '>TOKENOMICS</h3>

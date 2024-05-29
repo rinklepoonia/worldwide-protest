@@ -7,7 +7,7 @@ import twitterImg from '../assets/images/svg/x_logo.svg'
 function Footer() {
     return (
         <div className='py_xl_150 py_lg_90 py_45 bg-black'>
-            <div className="container">
+            <div className="container custam_container">
                 <div className='row'>
                     <div className="col-lg-3 col-6">
                         <a href=""> <img className='mb_sm_40 mb_15' src={footerLogo} alt="footerLogo" /></a>
