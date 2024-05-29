@@ -9,7 +9,7 @@ function AppsSection() {
             <div className='container custam_container'>
                 <div className="row">
                     <div className="col-xl-4 col-6">
-                        <div className='d-flex align-items-center gap_sm_22 gap_10 justify-content-center'>
+                        <div className='d-flex align-items-center gap_sm_22 gap_10 justify-content-lg-start justify-content-center'>
                             <a href="https://x.com/?lang=en" target='_blank'><img src={twitterLogo} alt="twitterLogo" /></a>
                             <h2 className='ff_inter fw-semibold text48_xxl lh_58 color_white mb-0'>twitter</h2>
                         </div>
