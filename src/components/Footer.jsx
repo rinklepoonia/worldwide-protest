@@ -1,6 +1,6 @@
 import React from 'react'
 import footerLogo from '../assets/images/svg/footer-logo.svg'
-import DextoolImg from '../assets/images/svg/dextools_logo.svg'
+import DextoolImg from '../assets/images/png/dextools.png'
 import telegramImg from '../assets/images/svg/telegram_symbol.svg'
 import twitterImg from '../assets/images/svg/x_logo.svg'
 
@@ -25,7 +25,7 @@ function Footer() {
                     </div>
                     <div className="col-lg-6 d-flex justify-content-lg-end justify-content-center mt-lg--0 mt-5">
                         <div className='d-flex gap-4'>
-                            <a href="https://www.dextools.io/app/en/pairs" target='_blank'><img className='zoom transition' src={DextoolImg} alt="DextoolImg" /></a>
+                            <a href="https://www.dextools.io/app/en/pairs" target='_blank'><img className='max_w_48 zoom transition' src={DextoolImg} alt="DextoolImg" /></a>
                             <a href="https://x.com/?lang=en" target='_blank'><img className='zoom transition' src={twitterImg} alt="twitterImg" /></a>
                             <a href="https://telegram.org/" target='_blank'><img className='zoom transition' src={telegramImg} alt="telegramImg" /></a>
                         </div>

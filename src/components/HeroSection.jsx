@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import DextoolImg from '../assets/images/svg/dextools_logo.svg'
+import DextoolImg from '../assets/images/png/dextools.png'
 import telegramImg from '../assets/images/svg/telegram_symbol.svg'
 import twitterImg from '../assets/images/svg/x_logo.svg'
 import DocImg from '../assets/images/svg/btn-svg.svg'
@@ -22,11 +22,11 @@ function HeroSection() {
                         </a>
                         <ul className={`${nav ? "end-0" : "right_100"} mobile-view  d-flex align-items-center gap_46 ps-0 overFlowHidden`}>
                             <ul className='d-flex flex_column gap_20 ps-0'>
-                                <a href="https://www.dextools.io/app/en/pairs" target='_blank'><img className='zoom transition' src={DextoolImg} alt="DextoolImg" /></a>
+                                <a href="https://www.dextools.io/app/en/pairs" target='_blank'><img className='zoom transition max_w_48' src={DextoolImg} alt="DextoolImg" /></a>
                                 <a href="https://x.com/?lang=en" target='_blank'><img className='zoom transition' src={twitterImg} alt="twitterImg" /></a>
                                 <a href="https://telegram.org/" target='_blank'><img className='zoom transition' src={telegramImg} alt="telegramImg" /></a>
                             </ul>
-                            <button className='ff_inter fw-semibold text16_sm lh_19 color_white bg-transparent btn_border btn_borderRadius btn_padding text-nowrap btn_hover transition'>Buy On Uniswap</button>
+                            <button className='ff_inter fw-semibold text16_sm lh_19 color_white bg_transparent btn_border btn_borderRadius btn_padding text-nowrap btn_hover transition'>Buy On Uniswap</button>
                         </ul>
                         <div className='menu d-lg-none z_6' onClick={() => setnav(!nav)}>
                             <span className=''></span>
@@ -43,10 +43,10 @@ function HeroSection() {
                             <h1 className='ff_inter fw-extrabold text108_5xl lh_130 color_white mb-0'>G<span className='color_orange'>G</span></h1>
                             <p className='ff_inter fw-semibold text20_md lh_24 max_w_538 color_white opacity_80 mb-0'>Join The <span className='color_orange'>Worldwide Blockchain</span> Protest Against Corrupt Government Bodies</p>
                             <div className='d-flex flex_wrap align-items-center gap_20 py_xl_62_32 py_30'>
-                                <button className='ff_inter fw-semibold text16_sm lh_19 color_black bg_orange border_transparent btn_borderRadius btn_padding text-nowrap black_btn_hover transition '>Buy $GrayGensler</button>
-                                <button className='ff_inter fw-semibold text16_sm lh_19 color_white bg-transparent btn_border btn_borderRadius btn_padding text-nowrap btn_hover transition '>How To Buy?</button>
+                                <button className='ff_inter fw-semibold text16_sm lh_19 color_black bg_orange border_transparent btn_borderRadius btn_padding text-nowrap btn_hover transition '>Buy $GrayGensler</button>
+                                <button className='ff_inter fw-semibold text16_sm lh_19 color_white bg_transparent btn_border btn_borderRadius btn_padding text-nowrap btn_hover transition '>How To Buy?</button>
                             </div>
-                            <button className='ff_inter fw-normal text20_md lh_30 color_white bg-transparent btn_border radius_102 padding_btn text-nowrap transition'>dwqjddj324dnewdne3dewrrets
+                            <button className='ff_inter fw-normal text20_md lh_30 color_white bg_transparent btn_border radius_102 padding_btn text-nowrap transition'>dwqjddj324dnewdne3dewrrets
                                 <img className='ms-4' src={DocImg} alt="DocImg" />
                             </button>
                         </div>

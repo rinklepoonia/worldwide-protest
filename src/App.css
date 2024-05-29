@@ -208,6 +208,10 @@
   max-width: 538px;
 }
 
+.max_w_48 {
+  max-width: 48px;
+}
+
 .border_transparent {
   border: 1px solid transparent;
 }
@@ -237,15 +241,25 @@
 }
 
 .black_btn_hover:hover {
-  background: var(--clr-black) !important;
+  /* background: var(--clr-black) !important;
   border: 1px solid var(--clr-white);
-  color: var(--clr-white);
+  color: var(--clr-white); */
+  /* background: var(--clr-white);
+  border: 1px solid var(--clr-orange);
+  color: var(--clr-orange); */
+}
+
+.bg_transparent {
+  background: transparent;
 }
 
 .btn_hover:hover {
-  background: var(--clr-orange) !important;
+  /* background: var(--clr-orange) !important;
   border: 1px solid var(--clr-black);
-  color: var(--clr-black);
+  color: var(--clr-black); */
+  background: var(--clr-white);
+  border: 1px solid var(--clr-orange);
+  color: var(--clr-orange);
 }
 
 .zoom:hover {

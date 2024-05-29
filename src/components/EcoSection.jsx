@@ -28,7 +28,7 @@ function EcoSection() {
                             </div>
                             <h3 className='ff_inter fw-extrabold text64_3xl lh_lg_77 lh_sm_60 lh_43 mt-lg-0 mt-sm-3 mt-0 mb_lg_20 mb_0'>ECOSYSTEM</h3>
                             <p className='ff_inter fw-normal text16_sm lh_25 color_black max_w_550 opacity_80 mb-sm-4 mb-0 pb-2'>The $LHGG ecosystem is built upon the principles of inclusivity,  humor, and innovation. Our community-driven approach  empowers members to actively participate in governance,  decision-making, and promotional activities. Through social  media campaigns, memes, and creative content, we seek to  amplify the message of embracing humor in the crypto space  and challenging conventional narratives. Together, we aspire to  foster a vibrant and engaging ecosystem where laughter reigns  supreme.</p>
-                            <button className='ff_inter fw-semibold text16_sm lh_19 color_black bg_orange btn_padding btn_borderRadius border_transparent fit_content black_btn_hover transition'>Buy $GrayGensler</button>
+                            <button className='ff_inter fw-semibold text16_sm lh_19 color_black bg_orange btn_padding btn_borderRadius border_transparent fit_content btn_hover transition'>Buy $GrayGensler</button>
                         </div>
                     </div>
                 </div>
