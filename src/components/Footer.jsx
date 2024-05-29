@@ -17,9 +17,9 @@ function Footer() {
                         <div className='orange_line position-relative d-flex '>
                             <ul className='mb-0 ps_lg_66 ps_30 '>
                                 <li className='ff_inter fw_bold text16_sm lh_25 color_white mb_30 text-nowrap'>QUICK LINKS</li>
-                                <li className='mb-3'><a href="" className='ff_inter fw-normal text16_sm lh_25 color_white position-relative underline transition'>Twitter</a></li>
-                                <li className='mb-3'><a href="" className='ff_inter fw-normal text16_sm lh_25 color_white position-relative underline transition'>Telegram</a></li>
-                                <li className='mb-2'><a href="" className='ff_inter fw-normal text16_sm lh_25 color_white position-relative underline transition'>DexTools</a></li>
+                                <li className='mb-3'><a href="https://x.com/?lang=en" target='_blank' className='ff_inter fw-normal text16_sm lh_25 color_white position-relative underline transition'>Twitter</a></li>
+                                <li className='mb-3'><a href="https://telegram.org/" target='_blank' className='ff_inter fw-normal text16_sm lh_25 color_white position-relative underline transition'>Telegram</a></li>
+                                <li className='mb-2'><a href="https://www.dextools.io/app/en/pairs" target='_blank' className='ff_inter fw-normal text16_sm lh_25 color_white position-relative underline transition'>DexTools</a></li>
                             </ul>
                         </div>
                     </div>
