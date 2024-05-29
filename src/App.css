@@ -184,10 +184,6 @@
   gap: 20px;
 }
 
-.mt_33 {
-  margin-top: -33px;
-}
-
 .h_754 {
   height: 754px;
 }
@@ -253,6 +249,15 @@
 
 .zoom:hover {
   scale: 1.1;
+}
+
+.pos_hero_boy {
+  right: 0;
+  bottom: 22px;
+}
+
+.mt_23 {
+  margin-top: -22px;
 }
 
 /* =========AppsSection======= */
@@ -639,6 +644,10 @@
   .w_100 {
     width: 100%;
   }
+
+  .opacity_30 {
+    opacity: 30%;
+  }
 }
 
 @media (min-width:576px) {
@@ -737,11 +746,6 @@
 }
 
 @media (min-width:992px) {
-  .hero_bg_img {
-    background-image: url(./assets/images/svg/hero-bg-img.svg);
-    background-size: 100% 100%;
-  }
-
   :root {
     --fs-lg: 36px;
     --fs-xxl: 48px;
@@ -964,12 +968,17 @@
   }
 }
 
-@media (min-width:1600px) {
+@media (min-width:1535.99px) {
   .custam_container {
     max-width: 1440px !important;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .pos_hero_boy {
+    right: 8%;
+    bottom: 22%;
   }
 }

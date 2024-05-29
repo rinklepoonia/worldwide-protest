@@ -5,7 +5,7 @@ import twitterLogo from '../assets/images/svg/x_logo.svg'
 
 function AppsSection() {
     return (
-        <div className='bg_orange h_136 mt_33 d-flex align-items-center h_136'>
+        <div className='bg_orange h_136 mt_23 z-1 position-relative d-flex align-items-center h_136'>
             <div className='container custam_container'>
                 <div className="row">
                     <div className="col-xl-4 col-6">
