@@ -179,6 +179,9 @@
 }
 
 /* ==========hero====== */
+.max_w_450 {
+  max-width: 450px;
+}
 
 .gap_20 {
   gap: 20px;
@@ -930,6 +933,10 @@
 
   .h_xl_1274 {
     height: 1274px;
+  }
+
+  .max_w_xl_576 {
+    max-width: 576px;
   }
 
   .latestPhn_pos {

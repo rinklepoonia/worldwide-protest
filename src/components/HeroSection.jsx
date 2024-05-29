@@ -15,7 +15,7 @@ function HeroSection() {
     }
     return (
         <div className='bg-black hero_bg_img bg_100_100 min_vh_100 h_754 d-flex flex-column position-relative'>
-            <div className='position-absolute pos_hero_boy'><img className='opacity_30' src={HeroboyImg} alt="HeroboyImg " /></div>
+            <div className='position-absolute pos_hero_boy max_w_xl_576 max_w_450'><img className='opacity_30' src={HeroboyImg} alt="HeroboyImg " /></div>
             <div className='pt_40'>
                 <div className='custam_container container'>
                     <div className='d-flex justify-content-between align-items-center'>
