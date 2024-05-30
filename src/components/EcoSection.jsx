@@ -13,7 +13,7 @@ function EcoSection() {
             <div className='position-absolute specks_pos d-lg-block d-none'><img src={specksImg} alt="specksImg" /></div>
             <div className='position-absolute pos_EcoNews d-lg-block d-none z-1'><img src={EcoNewsImg} alt="EcoNewsImg" /></div>
             <div className="container custam_container">
-                <div className="row justify-content-between">
+                <div className="row justify-content-between align-items-center">
                     <div data-aos="fade-up" className="col-lg-5 d-flex justify-content-center">
                         <img className='w_100 max_w_md_565 max_w_265' src={EcoBoyImg} alt="EcoBoyImg " />
                     </div>

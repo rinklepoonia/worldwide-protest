@@ -846,9 +846,9 @@
     height: 1031px;
   }
 
-  .w_50 {
+  /* .w_50 {
     width: 50% !important;
-  }
+  } */
 
   .pt_lg_84 {
     padding-top: 84px;
@@ -862,9 +862,9 @@
     max-width: 550px !important;
   }
 
-  .max_w_lg_940 {
+  /* .max_w_lg_940 {
     max-width: 688px;
-  }
+  } */
 
   .max_w_lg_60 {
     max-width: 60px !important;
@@ -1001,9 +1001,9 @@
     max-width: 571px !important;
   }
 
-  .max_w_688 {
+  /* .max_w_688 {
     max-width: 688px !important;
-  }
+  } */
 
   .mr_35 {
     margin-right: -25px;
