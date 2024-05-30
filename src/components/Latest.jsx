@@ -29,7 +29,7 @@ function Latest() {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 1.6,
+                    slidesToShow:2,
                     slidesToScroll: 1,
                 }
             },
