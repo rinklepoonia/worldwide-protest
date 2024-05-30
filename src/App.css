@@ -575,10 +575,15 @@
   color: var(--clr-orange);
 }
 
+.max_w_35 {
+  max-width: 35px;
+}
+
 @media (max-width:576px) {
   .flex_wrap {
     flex-wrap: wrap;
   }
+
 }
 
 @media (max-width:991.99px) {
@@ -661,6 +666,10 @@
     --fs-xl: 40.44px;
     --fs-xxl: 30px;
     --fs-3xl: 40px;
+  }
+
+  .max_w_46 {
+    max-width: 46px;
   }
 
   .mb_sm_40 {
