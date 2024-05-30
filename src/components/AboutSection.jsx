@@ -1,5 +1,4 @@
 import React from 'react'
-import AboutImg from '../assets/images/png/sell-img.png'
 import DexImg from '../assets/images/svg/dextool-about.svg'
 import horseImg from '../assets/images/svg/horse-about.svg'
 import TwitterImg from '../assets/images/svg/twitter-about.svg'
@@ -7,16 +6,19 @@ import telImg from '../assets/images/svg/tewt-about.svg'
 import lastlogo from '../assets/images/svg/about-last-logo.svg'
 import specksImg from '../assets/images/svg/specks-img.svg'
 import AboutImg2 from '../assets/images/png/about-seel-img.png'
+import fudingAbout1 from '../assets/images/svg/about-Fouding1.svg'
+import fudingAbout3 from '../assets/images/svg/about-fouding3.svg'
 
 function AboutSection() {
     return (
         <div className='about_bg_img py_xl_134_104 py_sm_50 py_20 position-relative'>
+            <div className='position-absolute pos_fudingAbout1 d-lg-block d-none'><img src={fudingAbout1} alt="fudingAbout1" /></div>
+            <div className='position-absolute pos_fudingAbout3 d-lg-block d-none'><img src={fudingAbout3} alt="fudingAbout3" /></div>
             <div className='position-absolute specks_about_Pos d-xl-block d-none'><img src={specksImg} alt="specksImg" /></div>
             <div className='container custam_container'>
                 <div className="row justify-content-between">
                     <div data-aos="fade-up" className="max_w_688 w_50 d-flex justify-content-center">
-                        <img className='w-100 max_w_lg_940 max_w_sm_530 max_w_300 h-100 object-fit-contain d-lg-block d-none' src={AboutImg} alt="AboutImg" />
-                        <img className='w-100 max_w_lg_940 max_w_sm_530 max_w_300 h-100 object-fit-contain d-lg-none d-block' src={AboutImg2} alt="AboutImg2" />
+                        <img className='w-100 max_w_lg_940 max_w_sm_530 max_w_300 h-100 object-fit-contain' src={AboutImg2} alt="AboutImg2" />
                     </div>
                     <div className="max_w_571 w_50 pt_lg_84 pt_20 mr_35">
                         <div className='d-flex flex-wrap align-items-center gap-md-4 gap-2 mb-xl-4 mb-2 '>

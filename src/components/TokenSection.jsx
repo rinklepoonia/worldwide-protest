@@ -3,7 +3,7 @@ function TokenSection() {
     return (
         <div className='token_bg_img bg_100 bg_no_repeat bg_black h_xl_1114 h_lg_900 position-relative'>
             <div className="container custam_container">
-                <div className='row pt_xl_260 pt_lg_200 py_30 justify-content-center'>
+                <div className='row pt_xl_260 pt_lg_200 py_30 justify-content-between'>
                     <div data-aos="zoom-in" className='col-lg-5'>
                         <h3 className='ff_inter fw-extrabold text64_3xl lh_lg_77 lh_sm_60 lh_43 color_white mb_xl_20 mb_10 '>TOKENOMICS</h3>
                         <p className='ff_inter fw-normal text16_sm lh_30 color_white opacity_80 mb_xl_20 mb_06 max_w_453'>Let's Hug GG ($LHGG) operates on a deflationary tokenomics model designed to incentivize selling Bitcoin.  With a fixed total supply and a burn mechanism in place, each transaction contributes to reducing the  circulating supply of $LHGG, thereby increasing its scarcity and value over time. Additionally, a portion of  transaction fees is allocated to liquidity pools, ensuring stability and liquidity for $LHGG holders.</p>
