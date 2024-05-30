@@ -50,7 +50,6 @@ function Latest() {
             <div className='position-absolute latestPhn_pos d-lg-block d-none'><img src={PhnImg} alt="PhnImg" /></div>
             <div className="container custam_container">
                 <h3 className='ff_inter fw-extrabold text64_3xl lh_lg_77 lh_sm_60 lh_43 color_black  text-center pb_xl_96 pb_lg_30 pb_15 mb-0'>LATEST NEWS</h3>
-
                 <div className='row latest_row_gap'>
                     <div className='col-xl-4 col-sm-6 d-flex justify- content-center d-lg-block d-none'>
                         <div data-aos="fade-up" className='latest_box mw_367'>
@@ -232,7 +231,6 @@ function Latest() {
                             </div>
                         </div>
                     </div>
-
                     <Slider dir="rtl" className='d-lg-none d-block latestSlider' {...settings}>
                         <div className='col-xl-4 col-sm-6 d-flex justify- content-center'>
                             <div data-aos="fade-up" className='latest_box mw_367'>
