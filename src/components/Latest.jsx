@@ -19,6 +19,7 @@ function Latest() {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -29,7 +30,7 @@ function Latest() {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow:2,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                 }
             },
@@ -232,7 +233,7 @@ function Latest() {
                         </div>
                     </div>
 
-                    <Slider className='d-lg-none d-block latestSlider' {...settings}>
+                    <Slider dir="rtl" className='d-lg-none d-block latestSlider' {...settings}>
                         <div className='col-xl-4 col-sm-6 d-flex justify- content-center'>
                             <div data-aos="fade-up" className='latest_box mw_367'>
                                 <div className='d-flex gap-3 align-items-center mb_lg_20'>

@@ -40,7 +40,7 @@
 :root {
   --fs-xxxs: 14px;
   --fs-xxs: 14.83px;
-  --fs-sm: 16px;
+  --fs-sm: 14px;
   --fs-md: 16px;
   --fs-2md: 20px;
   --fs-3md: 25px;
@@ -777,14 +777,11 @@
   .pt_md_50 {
     padding-top: 50px;
   }
-
-  .latest_box {
-    padding: 26px 8px 19px 22px;
-  }
 }
 
 @media (min-width:992px) {
   :root {
+    --fs-sm: 16px;
     --fs-lg: 36px;
     --fs-xxl: 48px;
     --fs-3xl: 50px;
@@ -880,6 +877,10 @@
   .roadmap_bg_img {
     background-image: url(./assets/images/png/roadmap-bg-img.png);
     background-size: 100% 100%;
+  }
+
+  .latest_box {
+    padding: 26px 8px 19px 22px;
   }
 }
 
