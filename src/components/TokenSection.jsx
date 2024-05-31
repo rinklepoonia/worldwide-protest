@@ -16,32 +16,32 @@ function TokenSection() {
                     </div>
                     <div data-aos="zoom-in" className="col-lg-6  mt-sm-4 mt-3">
                         <div className='d-flex gap_sm_18 gap_10 mb_sm_18 mb_10 token_flex_wrap justify-content-center'>
-                            <div className='token_orangeBox py_xl_16 py_5 px_xl_22 px_10'>
-                                <p className='ff_inter fw-semibold text20_md lh_30 color_black mb-sm-2 mb-0 text-nowrap'> Marketing & Partnerships</p>
+                            <div className='token_orangeBox py_xl_16 py_5 px_xl_22 px_10 max_w_218 token_w_100'>
+                                <p className='ff_inter fw-semibold text20_md lh_30 color_black mb-sm-2 mb-0 text-nowrap text-center'> Marketing & Partnerships</p>
                                 <p className='ff_inter fw-semibold text32_3md lh_30 color_black mb-0 text-center'>5%</p>
                             </div>
-                            <div className='token_orangeBox py_xl_16 py_5 px_xl_26 px_10'>
-                                <p className='ff_inter fw-semibold text20_md lh_30 color_black mb-sm-2 mb-0'>Reserve</p>
+                            <div className='token_orangeBox py_xl_16 py_5 px_xl_26 px_10 max_w_218 token_w_100'>
+                                <p className='ff_inter fw-semibold text20_md lh_30 color_black mb-sm-2 mb-0 text-center'>Reserve</p>
                                 <p className='ff_inter fw-semibold text32_3md lh_30 color_black mb-0 text-center'>5%</p>
                             </div>
-                            <div className='token_orangeBox py_xl_16 py_5 px_xl_22 px_10'>
-                                <p className='ff_inter fw-semibold text20_md lh_30 color_black mb-sm-2 mb-0 text-nowrap'>Public Sale</p>
+                            <div className='token_orangeBox py_xl_16 py_5 px_xl_22 px_10 max_w_218 token_w_100'>
+                                <p className='ff_inter fw-semibold text20_md lh_30 color_black mb-sm-2 mb-0 text-nowrap text-center'>Public Sale</p>
                                 <p className='ff_inter fw-semibold text32_3md lh_30 color_black mb-0 text-center'>45%</p>
                             </div>
                         </div>
                         <div className='d-flex token_flex_wrap gap_sm_18 gap_10 mb_sm_18 mb_10 justify-content-center'>
-                            <div className='token_orangeBox py_xl_16 py_5 px_xl_22 px_10'>
-                                <p className='ff_inter fw-semibold text20_md lh_30 color_black mb-sm-2 mb-0 text-nowrap'>Community Development</p>
+                            <div className='token_orangeBox py_xl_16 py_5 px_xl_22 px_10 max_w_218 token_w_100'>
+                                <p className='ff_inter fw-semibold text20_md lh_30 color_black mb-sm-2 mb-0 text-nowrap text-center'>Community Development</p>
                                 <p className='ff_inter fw-semibold text32_3md lh_30 color_black mb-0 text-center'>15%</p>
                             </div>
-                            <div className='token_orangeBox py_xl_16 py_5 px_xl_68 px_46'>
+                            <div className='token_orangeBox py_xl_16 py_5 px_xl_68 px_46 max_w_218 token_w_100'>
                                 <p className='ff_inter fw-semibold text20_md lh_30 color_black mb-sm-2 mb-0 text-nowrap'>Ecosystem Fund</p>
                                 <p className='ff_inter fw-semibold text32_3md lh_30 color_black mb-0 text-center'>10%</p>
                             </div>
                         </div>
                         <div className='d-flex justify-content-center'>
-                            <div className='token_orangeBox py_xl_16 py_5 px_xl_72 px_50'>
-                                <p className='ff_inter fw-semibold text20_md lh_30 color_black mb-sm-2 mb-0 text-nowrap'>Team & Adisors</p>
+                            <div className='token_orangeBox py_xl_16 py_5 px_xl_72 px_50 max_w_218 token_w_100'>
+                                <p className='ff_inter fw-semibold text20_md lh_30 color_black mb-sm-2 mb-0 text-nowrap text-center'>Team & Adisors</p>
                                 <p className='ff_inter fw-semibold text32_3md lh_30 color_black mb-0 text-center'>20%</p>
                             </div>
                         </div>

@@ -17,8 +17,8 @@ function AboutSection() {
             <div className='position-absolute specks_about_Pos d-xl-block d-none'><img src={specksImg} alt="specksImg" /></div>
             <div className='container custam_container'>
                 <div className="d- flex row justify-content-between">
-                    <div data-aos="fade-up" className="col-lg-6  d-flex align-items-center justify-content-center">
-                        <img className='w-100' src={AboutImg2} alt="AboutImg2" />
+                    <div data-aos="fade-up" className="col-lg-6  d-flex align-items-center justify -content-center">
+                        <img className='w-100 max_w_lg_688 max_w_sm_530 max_w_300 h- 100 object- -contain' src={AboutImg2} alt="AboutImg2" />
                     </div>
                     <div className="col-lg-6  pt_lg_84 pt_20 mr_ 35">
                         <div className='d-flex flex-wrap align-items-center gap-md-4 gap-2 mb-xl-4 mb-2 '>

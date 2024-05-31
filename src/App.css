@@ -609,7 +609,6 @@
   .token_flex_wrap {
     flex-wrap: wrap;
   }
-
 }
 
 @media (max-width:991.99px) {
@@ -628,7 +627,7 @@
   .mobile-view {
     background-color: var(--clr-orange);
     height: 100%;
-    width: 50%;
+    width: 100%;
     position: fixed;
     top: 0;
     right: -100%;
@@ -682,11 +681,18 @@
   .opacity_30 {
     opacity: 30%;
   }
+
+  .max_w_218 {
+    max-width: 218px;
+  }
+
+  .token_w_100 {
+    width: 100%;
+  }
 }
 
 @media (min-width:576px) {
   :root {
-    --fs-md: 20px;
     --fs-3md: 32px;
     --fs-lg: 30px;
     --fs-xl: 40.44px;
@@ -782,6 +788,7 @@
 @media (min-width:992px) {
   :root {
     --fs-sm: 16px;
+    --fs-md: 20px;
     --fs-lg: 36px;
     --fs-xxl: 48px;
     --fs-3xl: 50px;
@@ -846,10 +853,6 @@
     height: 1031px;
   }
 
-  /* .w_50 {
-    width: 50% !important;
-  } */
-
   .pt_lg_84 {
     padding-top: 84px;
   }
@@ -862,9 +865,9 @@
     max-width: 550px !important;
   }
 
-  /* .max_w_lg_940 {
+  .max_w_lg_688 {
     max-width: 688px;
-  } */
+  }
 
   .max_w_lg_60 {
     max-width: 60px !important;
@@ -907,7 +910,7 @@
   }
 
   .pt_xl_280 {
-    padding-top: 280px;
+    padding-top: 230px;
   }
 
   .pt_xl_200_110 {
@@ -930,7 +933,7 @@
 
   .py_xl_125_140 {
     padding-top: 125px;
-    padding-bottom: 140px;
+    padding-bottom: 100px;
   }
 
   .px_xl_22 {
